@@ -1,7 +1,7 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "fitness-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fitness related app that helps you log workouts.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,11 +9,20 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/PatrickStutts/fitnessTracker.git"
+  },
+  "author": "Patrick Stutts",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
-  }
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "handlebars": "^4.7.7",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
 }
