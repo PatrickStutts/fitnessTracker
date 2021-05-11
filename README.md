@@ -17,7 +17,7 @@ With this workout tracker the user can create custom workout plans and log them!
 * Repeat
 * See gains!
 
-![Fitness Tracker](./assets/fitnesstracker.png)
+![Fitness Tracker](./assets/fitnessTracker.png)
 
 
 ## Built With
